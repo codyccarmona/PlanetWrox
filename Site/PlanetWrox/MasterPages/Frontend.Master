@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="PlanetWrox.Frontend" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.Master.vb" Inherits="PlanetWrox.Site1" %>
 
 <!DOCTYPE html>
 
@@ -7,13 +7,22 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div id="PageWrapper">
+            <div id="Header"><a href="~/" runat="server">Header Goes Here</a></div>
+            <div id="MenuWrapper">Menu Goes Here</div>
+            <div id="MainContent">
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="Sidebar">Sidebar here<br /></div>
+            <div id="Footer">Footer Goes Here</div>
         </div>
-    </form>
+  </form>
 </body>
 </html>

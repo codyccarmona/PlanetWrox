@@ -12,5 +12,5 @@ Option Explicit On
 
 
 
-Partial Public Class _Default
+Partial Public Class Login
 End Class
