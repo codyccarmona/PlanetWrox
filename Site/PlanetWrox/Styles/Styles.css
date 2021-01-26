@@ -36,6 +36,10 @@ h1{
     width: 844px;
     clear: both;
 }
+.Introduction {
+    font-style: italic;
+    color: #000066;
+}
 
 #MainContent a{
     color: #008000;
@@ -50,4 +54,7 @@ h1{
 #MainContent a:hover{
     color: #FFA500;
     text-decoration: underline;
+}
+h1 {
+    padding: 0px 0px 10px 0px;
 }

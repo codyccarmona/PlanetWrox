@@ -88,6 +88,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Demos\CodeBehind.aspx" />
+    <Content Include="Demos\ControlsDemo.aspx" />
     <Content Include="Demos\TableDemo.aspx" />
     <Content Include="Demos\CssDemo.aspx" />
     <Content Include="Styles\Styles.css" />
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="Demos\CodeBehind.aspx.vb">
       <DependentUpon>CodeBehind.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ControlsDemo.aspx.designer.vb">
+      <DependentUpon>ControlsDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ControlsDemo.aspx.vb">
+      <DependentUpon>ControlsDemo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Demos\TableDemo.aspx.designer.vb">
