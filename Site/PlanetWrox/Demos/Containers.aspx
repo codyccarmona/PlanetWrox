@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Containers.aspx.vb" Inherits="PlanetWrox.Containers" %>
+﻿<%@ Page Title= "Containers" Language="vb" AutoEventWireup="false" CodeBehind="Containers.aspx.vb" Inherits="PlanetWrox.Containers" %>
 
 <!DOCTYPE html>
 

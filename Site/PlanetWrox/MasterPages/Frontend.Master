@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.Master.vb" Inherits="PlanetWrox.Site1" %>
 
+<%@ Register src="~/Controls/Banner.ascx" tagname="Banner" tagprefix="uc1" %>
+
 <!DOCTYPE html>
 
 <html>
@@ -8,19 +10,36 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
-
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="PageWrapper">
-            <div id="Header"><a href="~/" runat="server">Header Goes Here</a></div>
-            <div id="MenuWrapper">Menu Goes Here</div>
+            <div id="Header"><a href="~/" runat="server"></a></div>
+            <div id="MenuWrapper">
+                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" DisappearAfter="1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+                </asp:Menu>
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ShowExpandCollapse="False">
+                    <LevelStyles>
+                        <asp:TreeNodeStyle CssClass="FirstLevelMenuItems"/>
+                    </LevelStyles>
+                </asp:TreeView>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </div>
             <div id="MainContent">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath> <br /><br />
                 <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-            <div id="Sidebar">Sidebar here<br /></div>
+            <div id="Sidebar">
+                Select a Theme<br /><asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True">
+                    <asp:ListItem>Monochrome</asp:ListItem>
+                    <asp:ListItem>DarkGrey</asp:ListItem>
+                </asp:DropDownList>
+                <br />
+                <br />
+                <br />
+                <uc1:Banner ID="Banner1" runat="server" />
+            </div>
             <div id="Footer">Footer Goes Here</div>
         </div>
   </form>

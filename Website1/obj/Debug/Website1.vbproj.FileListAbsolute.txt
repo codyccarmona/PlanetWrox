@@ -1,0 +1,11 @@
+C:\BegASPNET\Website1\bin\Website1.dll.config
+C:\BegASPNET\Website1\bin\Website1.dll
+C:\BegASPNET\Website1\bin\Website1.pdb
+C:\BegASPNET\Website1\bin\Website1.xml
+C:\BegASPNET\Website1\obj\Debug\Website1.vbprojAssemblyReference.cache
+C:\BegASPNET\Website1\obj\Debug\Website1.Resources.resources
+C:\BegASPNET\Website1\obj\Debug\Website1.vbproj.GenerateResource.cache
+C:\BegASPNET\Website1\obj\Debug\Website1.vbproj.CoreCompileInputs.cache
+C:\BegASPNET\Website1\obj\Debug\Website1.dll
+C:\BegASPNET\Website1\obj\Debug\Website1.xml
+C:\BegASPNET\Website1\obj\Debug\Website1.pdb

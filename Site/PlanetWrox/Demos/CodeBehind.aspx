@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="CodeBehind.aspx.vb" Inherits="PlanetWrox.CodeBehind" %>
+﻿<%@ Page Title= "Example" Language="vb" AutoEventWireup="false" CodeBehind="CodeBehind.aspx.vb" Inherits="PlanetWrox.CodeBehind" %>
 
 <!DOCTYPE html>
 

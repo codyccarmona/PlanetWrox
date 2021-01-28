@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="CssDemo.aspx.vb" Inherits="PlanetWrox.WebForm2" %>
+﻿<%@ Page Title= "CSS Demo" Language="vb" AutoEventWireup="false" CodeBehind="CssDemo.aspx.vb" Inherits="PlanetWrox.WebForm2" %>
 
 <!DOCTYPE html>
 

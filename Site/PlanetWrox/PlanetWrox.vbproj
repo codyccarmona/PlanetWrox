@@ -60,7 +60,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controls\" />
+    <Folder Include="Styles\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -86,21 +86,69 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About\AboutUs.aspx" />
+    <Content Include="About\Contact.aspx" />
+    <Content Include="About\Default.aspx" />
+    <Content Include="App_Themes\DarkGrey\DarkGrey.css" />
+    <Content Include="App_Themes\DarkGrey\Images\Header.jpg" />
+    <Content Include="App_Themes\Monochrome\Images\Header.jpg" />
+    <Content Include="App_Themes\Monochrome\Images\MenuBackground.jpg" />
+    <Content Include="App_Themes\Monochrome\Images\Sidebar.jpg" />
+    <Content Include="Controls\Banner.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Demos\CalculatorDemo.aspx" />
     <Content Include="Demos\CodeBehind.aspx" />
     <Content Include="Demos\Containers.aspx" />
     <Content Include="Demos\ControlsDemo.aspx" />
     <Content Include="Demos\ListControls.aspx" />
+    <Content Include="Demos\SkinsDemo.aspx" />
+    <Content Include="Demos\Source.aspx" />
     <Content Include="Demos\State.aspx" />
     <Content Include="Demos\TableDemo.aspx" />
     <Content Include="Demos\CssDemo.aspx" />
+    <Content Include="Demos\Target.aspx" />
+    <Content Include="Images\Banner120x240.gif" />
+    <Content Include="Images\Banner468x60.gif" />
     <Content Include="Login.aspx" />
-    <Content Include="Styles\Styles.css" />
+    <Content Include="App_Themes\Monochrome\Monochrome.css" />
+    <Content Include="Reviews\All.aspx" />
+    <Content Include="Reviews\AllByGenre.aspx" />
+    <Content Include="Reviews\Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About\AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="About\Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="About\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="App_Code\Calculator.vb" />
+    <Compile Include="Controls\Banner.ascx.designer.vb">
+      <DependentUpon>Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Banner.ascx.vb">
+      <DependentUpon>Banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -143,6 +191,20 @@
       <DependentUpon>ListControls.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Demos\SkinsDemo.aspx.designer.vb">
+      <DependentUpon>SkinsDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\SkinsDemo.aspx.vb">
+      <DependentUpon>SkinsDemo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Source.aspx.designer.vb">
+      <DependentUpon>Source.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Source.aspx.vb">
+      <DependentUpon>Source.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Demos\State.aspx.designer.vb">
       <DependentUpon>State.aspx</DependentUpon>
     </Compile>
@@ -164,12 +226,19 @@
       <DependentUpon>CssDemo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Demos\Target.aspx.designer.vb">
+      <DependentUpon>Target.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Target.aspx.vb">
+      <DependentUpon>Target.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MasterPages\Frontend.Master.designer.vb">
       <DependentUpon>Frontend.Master</DependentUpon>
@@ -197,6 +266,27 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Reviews\All.aspx.designer.vb">
+      <DependentUpon>All.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviews\All.aspx.vb">
+      <DependentUpon>All.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reviews\AllByGenre.aspx.designer.vb">
+      <DependentUpon>AllByGenre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviews\AllByGenre.aspx.vb">
+      <DependentUpon>AllByGenre.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reviews\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviews\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -208,6 +298,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPages\Frontend.Master" />
+    <Content Include="App_Themes\Monochrome\Button.skin" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -223,6 +314,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

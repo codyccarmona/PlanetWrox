@@ -1,5 +1,5 @@
 ﻿Public Class Containers
-    Inherits System.Web.UI.Page
+    Inherits BasePage
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Panel1.Visible = False

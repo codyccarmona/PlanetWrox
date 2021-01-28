@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="ListControls.aspx.vb" Inherits="PlanetWrox.ListControls" %>
+﻿<%@ Page Title= "List Controls" Language="vb" AutoEventWireup="false" CodeBehind="ListControls.aspx.vb" Inherits="PlanetWrox.ListControls" %>
 
 <!DOCTYPE html>
 

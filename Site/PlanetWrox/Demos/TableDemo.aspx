@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="TableDemo.aspx.vb" Inherits="PlanetWrox.WebForm1" %>
+﻿<%@ Page Title= "Table Demo" Language="vb" AutoEventWireup="false" CodeBehind="TableDemo.aspx.vb" Inherits="PlanetWrox.WebForm1" %>
 
 <!DOCTYPE html>
 

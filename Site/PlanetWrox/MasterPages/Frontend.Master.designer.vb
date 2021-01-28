@@ -32,6 +32,42 @@ Partial Public Class Site1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Menu1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Menu1 As Global.System.Web.UI.WebControls.Menu
+
+    '''<summary>
+    '''TreeView1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TreeView1 As Global.System.Web.UI.WebControls.TreeView
+
+    '''<summary>
+    '''SiteMapDataSource1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SiteMapDataSource1 As Global.System.Web.UI.WebControls.SiteMapDataSource
+
+    '''<summary>
+    '''SiteMapPath1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SiteMapPath1 As Global.System.Web.UI.WebControls.SiteMapPath
+
+    '''<summary>
     '''cpMainContent control.
     '''</summary>
     '''<remarks>
@@ -39,4 +75,22 @@ Partial Public Class Site1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents cpMainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
+    '''ThemeList control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ThemeList As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''Banner1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Banner1 As Global.PlanetWrox.Banner
 End Class

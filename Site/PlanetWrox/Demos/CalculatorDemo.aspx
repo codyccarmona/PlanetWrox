@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="CalculatorDemo.aspx.vb" Inherits="PlanetWrox.CalculatorDemo" %>
+﻿<%@ Page Title= "Calculator" Language="vb" AutoEventWireup="false" CodeBehind="CalculatorDemo.aspx.vb" Inherits="PlanetWrox.CalculatorDemo" %>
 
 <!DOCTYPE html>
 
