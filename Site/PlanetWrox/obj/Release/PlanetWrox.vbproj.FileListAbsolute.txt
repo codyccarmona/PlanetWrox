@@ -1,0 +1,11 @@
+C:\BegASPNET\Site\PlanetWrox\bin\PlanetWrox.dll.config
+C:\BegASPNET\Site\PlanetWrox\bin\PlanetWrox.dll
+C:\BegASPNET\Site\PlanetWrox\bin\PlanetWrox.pdb
+C:\BegASPNET\Site\PlanetWrox\bin\PlanetWrox.xml
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.vbprojAssemblyReference.cache
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.Resources.resources
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.vbproj.GenerateResource.cache
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.vbproj.CoreCompileInputs.cache
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.dll
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.xml
+C:\BegASPNET\Site\PlanetWrox\obj\Release\PlanetWrox.pdb

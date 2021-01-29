@@ -109,6 +109,8 @@ h1
   font-size: 0.8em;
   width: 124px;
   color: White;
+
+
   float: left;
   padding-top: 10px;
 }
@@ -135,3 +137,7 @@ img {
     border: 0;
 }
 
+.ErrorMessage {
+    /*Used by the RequestFieldValidator to make the message red*/
+    color: red;
+}

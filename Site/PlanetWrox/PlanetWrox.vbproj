@@ -95,6 +95,7 @@
     <Content Include="App_Themes\Monochrome\Images\MenuBackground.jpg" />
     <Content Include="App_Themes\Monochrome\Images\Sidebar.jpg" />
     <Content Include="Controls\Banner.ascx" />
+    <Content Include="Controls\ContactForm.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Demos\CalculatorDemo.aspx" />
     <Content Include="Demos\CodeBehind.aspx" />
@@ -142,11 +143,19 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="App_Code\Calculator.vb" />
+    <Compile Include="App_Code\Direction.vb" />
     <Compile Include="Controls\Banner.ascx.designer.vb">
       <DependentUpon>Banner.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\Banner.ascx.vb">
       <DependentUpon>Banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactForm.ascx.designer.vb">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContactForm.ascx.vb">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.vb">

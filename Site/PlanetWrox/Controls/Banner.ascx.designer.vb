@@ -23,6 +23,15 @@ Partial Public Class Banner
     Protected WithEvents VerticalPanel As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
+    '''VerticalLink control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents VerticalLink As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Image1 control.
     '''</summary>
     '''<remarks>
@@ -30,4 +39,31 @@ Partial Public Class Banner
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''HorizontalPanel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HorizontalPanel As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''HorizontalLink control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HorizontalLink As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''Image2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image2 As Global.System.Web.UI.WebControls.Image
 End Class
