@@ -1,0 +1,11 @@
+X-Sender: "Sender Name" <codycarmona@gmail.com>
+X-Receiver: "Receiver Name" <c.carmona@wfbsusa.com>
+MIME-Version: 1.0
+From: "Sender Name" <codycarmona@gmail.com>
+To: "Receiver Name" <c.carmona@wfbsusa.com>
+Date: 1 Feb 2021 08:41:13 -0500
+Subject: Test Message
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Hellow world, from Planet Wrox

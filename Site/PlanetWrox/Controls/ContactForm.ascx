@@ -18,8 +18,9 @@
     }
 </script>
 
-
-<table class="auto-style1">
+<asp:UpdatePanel runat="server" ID="UpdatePanel1">
+    <ContentTemplate>
+<table class="auto-style1" runat="server" id="FormTable">
     <tr>
         <td colspan="3">
             <h1>Get in touch with us</h1>
@@ -88,9 +89,21 @@
     </tr>
     <tr>
         <td colspan="2">
-            <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="ErrorMessage" HeaderText="Please correct the following errors before you press the Send button:" ShowMessageBox="True" ShowSummary="False" />
+            <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="ErrorMessage" HeaderText="Please correct the following errors before you press the Send button:" />
         </td>
         <td>&nbsp;</td>
     </tr>
 </table>
+
+<asp:Label ID="Message" runat="server" Text="Message Sent" Visible="false"></asp:Label>
+        </ContentTemplate>
+</asp:UpdatePanel>
+
+<asp:UpdateProgress runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+    <ProgressTemplate>
+        <div class="PleaseWait">
+            Please Wait
+        </div>
+    </ProgressTemplate>
+</asp:UpdateProgress>
 

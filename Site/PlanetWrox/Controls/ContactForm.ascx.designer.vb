@@ -14,6 +14,24 @@ Option Explicit On
 Partial Public Class ContactForm
 
     '''<summary>
+    '''UpdatePanel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
+
+    '''<summary>
+    '''FormTable control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents FormTable As Global.System.Web.UI.HtmlControls.HtmlTable
+
+    '''<summary>
     '''Name control.
     '''</summary>
     '''<remarks>
@@ -147,4 +165,13 @@ Partial Public Class ContactForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ValidationSummary1 As Global.System.Web.UI.WebControls.ValidationSummary
+
+    '''<summary>
+    '''Message control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Message As Global.System.Web.UI.WebControls.Label
 End Class

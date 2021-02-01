@@ -126,6 +126,24 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PlanetWrox.ContactForm._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PlanetWrox.ContactForm._FormTable">
+<summary>
+FormTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PlanetWrox.ContactForm._Name">
 <summary>
 Name control.
@@ -255,6 +273,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PlanetWrox.ContactForm._ValidationSummary1">
 <summary>
 ValidationSummary1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PlanetWrox.ContactForm._Message">
+<summary>
+Message control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -441,6 +468,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PlanetWrox.Email._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PlanetWrox.ListControls._form1">
 <summary>
 form1 control.
@@ -585,6 +621,33 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PlanetWrox.UpdatePanel._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PlanetWrox.UpdatePanel._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PlanetWrox.WebServices._ScriptManagerProxy1">
+<summary>
+ScriptManagerProxy1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PlanetWrox.Site1._head">
 <summary>
 head control.
@@ -597,6 +660,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PlanetWrox.Site1._form1">
 <summary>
 form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PlanetWrox.Site1._ScriptManager1">
+<summary>
+ScriptManager1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -660,6 +732,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PlanetWrox.Site1._Banner1">
 <summary>
 Banner1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PlanetWrox.Site1._cpClientScript">
+<summary>
+cpClientScript control.
 </summary>
 <remarks>
 Auto-generated field.
